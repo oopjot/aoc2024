@@ -48,5 +48,3 @@
   (reduce + 0 (map (partial apply *)
                    (map-indexed vector blocks))))
 
-
-
